@@ -3,6 +3,7 @@
 ### Features:
 * Downloading the news from the API given
 * Option to save the articles to view offline
+* Swipe from top to refresh news feed
 
 ### Tech and Architecture:
 * This application takes advantage of MVVM architecture
