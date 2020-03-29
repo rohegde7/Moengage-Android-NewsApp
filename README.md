@@ -1,5 +1,9 @@
 # Engage News App
 
+### Features:
+* Downloading the news from the API given
+* Option to save the articles to view offline
+
 ### Tech and Architecture:
 * This application takes advantage of MVVM architecture
 * Activity, ViewModel, Repository, LiveData, ObservableFields, DataBinding are the basic building blocks of this architecture
