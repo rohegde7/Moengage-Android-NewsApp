@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.home;
+package com.rohegde7.moengage.screens.home;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -6,9 +6,9 @@ import android.os.Looper;
 import androidx.lifecycle.MutableLiveData;
 
 import com.google.gson.Gson;
-import com.rohegde7.moengage.enums.HomeAction;
-import com.rohegde7.moengage.pojos.Article;
-import com.rohegde7.moengage.pojos.NewsAPIResponse;
+import com.rohegde7.moengage.remote.enums.HomeAction;
+import com.rohegde7.moengage.remote.pojos.Article;
+import com.rohegde7.moengage.remote.pojos.NewsAPIResponse;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,8 +17,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rohegde7.moengage.enums.HomeAction.NEWS_API_ERROR;
-import static com.rohegde7.moengage.enums.HomeAction.NEWS_API_FETCHED_SUCCESSFULLY;
+import static com.rohegde7.moengage.remote.enums.HomeAction.NEWS_API_ERROR;
+import static com.rohegde7.moengage.remote.enums.HomeAction.NEWS_API_FETCHED_SUCCESSFULLY;
 
 /*
  * Class where all the DB and API calls reside

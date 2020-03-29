@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.savedarticles;
+package com.rohegde7.moengage.screens.savedarticles;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -8,11 +8,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.os.Bundle;
 
 import com.rohegde7.moengage.R;
-import com.rohegde7.moengage.adapter.NewsAdapter;
-import com.rohegde7.moengage.databinding.ActivityHomeBinding;
+import com.rohegde7.moengage.remote.adapter.NewsAdapter;
 import com.rohegde7.moengage.databinding.ActivitySavedArticlesBinding;
-import com.rohegde7.moengage.pojos.Article;
-import com.rohegde7.moengage.util.SharedPrefUtil;
+import com.rohegde7.moengage.remote.pojos.Article;
+import com.rohegde7.moengage.remote.util.SharedPrefUtil;
 
 import java.util.List;
 

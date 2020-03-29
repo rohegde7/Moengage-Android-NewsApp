@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.util;
+package com.rohegde7.moengage.remote.util;
 
 public class Constants {
 

@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.home;
+package com.rohegde7.moengage.screens.home;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,17 +12,17 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.rohegde7.moengage.R;
-import com.rohegde7.moengage.adapter.NewsAdapter;
+import com.rohegde7.moengage.remote.adapter.NewsAdapter;
 import com.rohegde7.moengage.databinding.ActivityHomeBinding;
-import com.rohegde7.moengage.enums.HomeAction;
-import com.rohegde7.moengage.pojos.Article;
-import com.rohegde7.moengage.savedarticles.SavedArticlesActivity;
-import com.rohegde7.moengage.util.SharedPrefUtil;
-import com.rohegde7.moengage.util.UiUtil;
+import com.rohegde7.moengage.remote.enums.HomeAction;
+import com.rohegde7.moengage.remote.pojos.Article;
+import com.rohegde7.moengage.screens.savedarticles.SavedArticlesActivity;
+import com.rohegde7.moengage.remote.util.SharedPrefUtil;
+import com.rohegde7.moengage.remote.util.UiUtil;
 
 import java.util.List;
 
-import static com.rohegde7.moengage.enums.HomeAction.NEWS_API_INITIATED;
+import static com.rohegde7.moengage.remote.enums.HomeAction.NEWS_API_INITIATED;
 
 public class HomeActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.adapter;
+package com.rohegde7.moengage.remote.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -12,9 +12,9 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.rohegde7.moengage.R;
-import com.rohegde7.moengage.pojos.Article;
-import com.rohegde7.moengage.util.SharedPrefUtil;
-import com.rohegde7.moengage.util.UiUtil;
+import com.rohegde7.moengage.remote.pojos.Article;
+import com.rohegde7.moengage.remote.util.SharedPrefUtil;
+import com.rohegde7.moengage.remote.util.UiUtil;
 
 import java.util.List;
 

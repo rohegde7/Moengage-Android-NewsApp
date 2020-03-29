@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.util;
+package com.rohegde7.moengage.remote.util;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

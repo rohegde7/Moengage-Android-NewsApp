@@ -1,4 +1,4 @@
-package com.rohegde7.moengage;
+package com.rohegde7.moengage.remote;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

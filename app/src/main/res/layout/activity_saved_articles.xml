@@ -5,7 +5,7 @@
     <data>
         <variable
             name="view_model"
-            type="com.rohegde7.moengage.savedarticles.SavedArticlesViewModel" />
+            type="com.rohegde7.moengage.screens.savedarticles.SavedArticlesViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,7 +13,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".savedarticles.SavedArticlesActivity">
+        tools:context=".screens.savedarticles.SavedArticlesActivity">
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/vertical_start_guideline"

@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.pojos;
+package com.rohegde7.moengage.remote.pojos;
 
 import androidx.annotation.Nullable;
 

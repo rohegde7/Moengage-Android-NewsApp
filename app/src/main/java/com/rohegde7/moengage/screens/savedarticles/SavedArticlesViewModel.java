@@ -1,4 +1,4 @@
-package com.rohegde7.moengage.savedarticles;
+package com.rohegde7.moengage.screens.savedarticles;
 
 import androidx.databinding.ObservableField;
 import androidx.lifecycle.ViewModel;
