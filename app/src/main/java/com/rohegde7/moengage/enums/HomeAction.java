@@ -1,4 +1,4 @@
-package com.rohegde7.moengagenewapp.enums;
+package com.rohegde7.moengage.enums;
 
 public enum HomeAction {
 

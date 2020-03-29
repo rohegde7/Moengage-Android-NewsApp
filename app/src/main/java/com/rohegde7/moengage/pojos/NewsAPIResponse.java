@@ -1,4 +1,4 @@
-package com.rohegde7.moengagenewapp.pojos;
+package com.rohegde7.moengage.pojos;
 
 import java.util.List;
 

@@ -1,13 +1,13 @@
-package com.rohegde7.moengagenewapp.home;
+package com.rohegde7.moengage.home;
 
 import androidx.databinding.ObservableField;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.rohegde7.moengagenewapp.MoEngageApplication;
-import com.rohegde7.moengagenewapp.R;
-import com.rohegde7.moengagenewapp.enums.HomeAction;
-import com.rohegde7.moengagenewapp.pojos.Article;
+import com.rohegde7.moengage.MoEngageApplication;
+import com.rohegde7.moengage.R;
+import com.rohegde7.moengage.enums.HomeAction;
+import com.rohegde7.moengage.pojos.Article;
 
 import java.util.List;
 

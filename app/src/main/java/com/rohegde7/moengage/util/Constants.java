@@ -1,4 +1,4 @@
-package com.rohegde7.moengagenewapp.util;
+package com.rohegde7.moengage.util;
 
 public class Constants {
 

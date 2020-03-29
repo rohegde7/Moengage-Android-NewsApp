@@ -1,4 +1,4 @@
-package com.rohegde7.moengagenewapp;
+package com.rohegde7.moengage;
 
 import android.app.Application;
 import android.content.Context;

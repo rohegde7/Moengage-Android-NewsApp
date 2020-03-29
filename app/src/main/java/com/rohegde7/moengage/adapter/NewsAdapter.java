@@ -1,7 +1,6 @@
-package com.rohegde7.moengagenewapp.adapter;
+package com.rohegde7.moengage.adapter;
 
 import android.app.Activity;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rohegde7.moengagenewapp.R;
-import com.rohegde7.moengagenewapp.pojos.Article;
-import com.rohegde7.moengagenewapp.util.SharedPrefUtil;
-import com.rohegde7.moengagenewapp.util.UiUtil;
+import com.rohegde7.moengage.R;
+import com.rohegde7.moengage.pojos.Article;
+import com.rohegde7.moengage.util.SharedPrefUtil;
+import com.rohegde7.moengage.util.UiUtil;
 
 import java.util.List;
 

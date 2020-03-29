@@ -1,16 +1,16 @@
-package com.rohegde7.moengagenewapp.util;
+package com.rohegde7.moengage.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.rohegde7.moengagenewapp.pojos.Article;
+import com.rohegde7.moengage.pojos.Article;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rohegde7.moengagenewapp.util.Constants.SAVED_ARTICLES;
+import static com.rohegde7.moengage.util.Constants.SAVED_ARTICLES;
 
 public class SharedPrefUtil {
 

@@ -1,25 +1,20 @@
-package com.rohegde7.moengagenewapp.savedarticles;
+package com.rohegde7.moengage.savedarticles;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 
-import com.rohegde7.moengagenewapp.R;
-import com.rohegde7.moengagenewapp.adapter.NewsAdapter;
-import com.rohegde7.moengagenewapp.databinding.ActivityHomeBinding;
-import com.rohegde7.moengagenewapp.databinding.ActivitySavedArticlesBinding;
-import com.rohegde7.moengagenewapp.enums.HomeAction;
-import com.rohegde7.moengagenewapp.home.HomeViewModel;
-import com.rohegde7.moengagenewapp.pojos.Article;
-import com.rohegde7.moengagenewapp.util.SharedPrefUtil;
+import com.rohegde7.moengage.R;
+import com.rohegde7.moengage.adapter.NewsAdapter;
+import com.rohegde7.moengage.databinding.ActivityHomeBinding;
+import com.rohegde7.moengage.databinding.ActivitySavedArticlesBinding;
+import com.rohegde7.moengage.pojos.Article;
+import com.rohegde7.moengage.util.SharedPrefUtil;
 
 import java.util.List;
-
-import static com.rohegde7.moengagenewapp.enums.HomeAction.NEWS_API_INITIATED;
 
 public class SavedArticlesActivity extends AppCompatActivity {
 
