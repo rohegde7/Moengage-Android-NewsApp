@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -45,6 +46,7 @@ public class HomeActivity extends AppCompatActivity {
         observerHomeActionLiveData();
         startDownloadingNews();
         observeViewSavedArticlesLiveData();
+        initSwipeRefreshLayout();
     }
 
     private void initUi() {
@@ -88,6 +90,16 @@ public class HomeActivity extends AppCompatActivity {
                     onViewSavedArticleButtonClicked();
                     mViewModel.getViewSavedArticlesLiveData().setValue(false);
                 }
+            }
+        });
+    }
+
+    private void initSwipeRefreshLayout() {
+        mBinding.swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                startDownloadingNews();
+                mBinding.swipeRefreshLayout.setRefreshing(false);
             }
         });
     }
